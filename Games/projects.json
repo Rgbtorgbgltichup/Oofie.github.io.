@@ -1,0 +1,51 @@
+{
+    "title": [
+        "Number Guessing game",
+        "Box Chater",
+        "Getto Arua",
+        "Platformer",
+        "3D Exporter",
+        "Blend HTML Version",
+        "Glass Machine",
+        "Pogram Rise (beta v0.3.1)",
+        "Runmaze",
+        "Class Coder HTML5 Engine"
+    ],
+    "description": [
+        "Basic number guesser. You have to guess the exact number using hints.",
+        "HTML Box catcher game. Catch them for points! It gets progressively faster.",
+        "A precision game: Get your mouse on the circle area until times up! Gets faster and harder.",
+        "Platformer test game with built-in TAS.",
+        "2D grid maze explorer with mining abilities.",
+        "Playable HTML version of Blendoku². Original by Lonely Few",
+        "Free online Slot Machine game! Get the right numbers for cash! (virtual cash ofc)",
+        "Progress Rise BETA v0.3.1. An incremental game about progress bars gradually increasing! Has 3 prestige layers and soundtrack!",
+        "A Ray-tracing labyrinth game about NextBots. Has 8 levels getting progressively harder!",
+        "This is a recreation of the Candy Crush engine."
+    ],
+    "directory": [
+        "numberguesser",
+        "boxcatcher",
+        "getto-area",
+        "platformer",
+        "2dexplorer",
+        "blendoku",
+        "slots",
+        "progress-rise",
+        "nexmaze",
+        "candycrush-engine"
+    ],
+    "section": [
+        "games",
+        "games",
+        "games",
+        "games",
+        "games",
+        "games",
+        "games",
+        "increm",
+        "games",
+        "games"
+    ],
+    "amount": 10
+}
