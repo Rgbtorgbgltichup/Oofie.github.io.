@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Free online Glass Machine game! Get the right numbers for disk! (virtual cash ofc)">
+        <meta name="keywords" content="online, slot machine, luck based game, games, BonesYT">
+
+        <link rel="stylesheet" href="style.css">
+        <title>BYT Slots: Cash Machine</title>
+        <script defer src="class.js"></script>
+        <script defer src="main.js"></script>
+        <link rel="shortcut icon" href="txtr/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <div class="black"><h1 class="blacktxt">Play!</h1></div>
+
+        <div class="gamescreen">
+            <div class="slots">
+                <canvas id="r0" class="reel" width="595" height="1020"></canvas>
+                <canvas id="r1" class="reel" width="595" height="1020"></canvas>
+                <canvas id="r2" class="reel" width="595" height="1020"></canvas>
+            </div>
+            <div class="displays">
+                <div class="cred statsbox"><h1 id="cred">[Diskes]</h1></div>
+                <div class="won statsbox"><h1 id="won">[Disk Value]</h1></div>
+            </div>
+            <div class="buttons">
+                <div class="but1 but dis" onclick="setbet()">
+                    <h1 id="bet" class="textbut">C</h1>
+                    <h1 class="betdesc">Disked</h1>
+                </div>
+                <div class="but2 but dis" onclick="wipe()"><h1 class="textbut">Wipe</h1></div>
+                <div id="play" onclick="spin()"><img class="playimg dis" src="txtr/Spin. fjipoi.png"></div>
+            </div>
+            <div class="others">
+                <h1 class="txt1 txt">Diskes</h1>
+                <h1 class="txt2 txt">Disk</h1>
+                <h1 class="txt3 txt">Glass Machine - Disk what you see!</h1>
+                <img src="txtr/PULGWIN.pnmg.png" id="plugwin">
+            </div>
+        </div>
+    </body>
+</html>
